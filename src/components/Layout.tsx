@@ -101,7 +101,7 @@ export function Layout() {
         </Sidebar>
       )}
 
-      <div className={`flex-1 flex flex-col ${state === "collapsed" ? "relative after:absolute after:inset-0 after:bg-black/20 after:backdrop-blur-sm" : ""}`}>
+      <div className={`flex-1 flex flex-col ${state === "state" ? "relative after:absolute after:inset-0 after:bg-black/20 after:backdrop-blur-sm" : ""}`}>
         <header className="bg-[#420030] h-16">
           <div className="h-full max-w-7xl mx-auto px-4 flex items-center">
             {!isAdminOrClientPage && (
