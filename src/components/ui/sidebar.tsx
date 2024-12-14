@@ -276,7 +276,7 @@ const SidebarTrigger = React.forwardRef<
       }}
       {...props}
     >
-      <PanelLeft fill="#d0c11d" /> {/* Cor dourada */}
+      <PanelLeft stroke="#d0c11d" /> {/* Altera a cor do traçado */}
       <span className="sr-only">Toggle Sidebar</span>
     </Button>
   )
