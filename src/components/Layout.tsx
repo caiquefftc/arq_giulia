@@ -106,7 +106,6 @@ export function Layout() {
           <div className="h-full max-w-7xl mx-auto px-4 flex items-center">
             {!isAdminOrClientPage && (
               <SidebarTrigger>
-                <Menu color="#d0c11d" className="h-6 w-6 cursor-pointer" />
               </SidebarTrigger>
             )}
             {!isAdminOrClientPage && showNavigation && (
