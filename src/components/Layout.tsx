@@ -77,7 +77,7 @@ export function Layout() {
           <SidebarContent className="bg-white">
             <div className="flex justify-end p-2">
               <SidebarTrigger>
-                <X className="text-[#d0c11d] hover:text-[#d0c11d]/90 h-6 w-6 cursor-pointer" />
+
               </SidebarTrigger>
             </div>
             <SidebarMenu>
