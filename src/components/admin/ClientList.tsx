@@ -44,7 +44,7 @@ export function ClientList({ clients, projects }: ClientListProps) {
       if (error) throw error;
 
       toast.success('Projeto removido com sucesso');
-      window.location.reload();
+      //window.location.reload();
     } catch (error) {
       console.error('Erro ao deletar projeto:', error);
       toast.error('Erro ao remover projeto');
@@ -105,7 +105,7 @@ export function ClientList({ clients, projects }: ClientListProps) {
           open={editModalOpen}
           onOpenChange={setEditModalOpen}
           onProjectUpdated={() => {
-            window.location.reload();
+            //window.location.reload();
           }}
         />
       )}
