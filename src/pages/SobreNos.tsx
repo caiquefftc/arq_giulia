@@ -12,7 +12,7 @@ export default function SobreNos() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <img
-                    src="imgs/IMG_20241211_120648_317.webp"
+                    src="imgs/sobrenos.jpg"
                     alt="Arquiteto"
                     className="w-full h-[400px] object-cover rounded-lg"
                   />
