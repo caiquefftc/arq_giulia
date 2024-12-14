@@ -77,7 +77,7 @@ export function Layout() {
           <SidebarContent className="bg-white">
             <div className="flex justify-end p-2">
               <SidebarTrigger>
-              <X className="text-[#d0c11d] !important hover:text-[#d0c11d]/90 h-6 w-6 cursor-pointer" />
+                <X className="text-[#d0c11d] hover:text-[#d0c11d]/90 h-6 w-6 cursor-pointer" />
               </SidebarTrigger>
             </div>
             <SidebarMenu>
@@ -106,7 +106,7 @@ export function Layout() {
           <div className="h-full max-w-7xl mx-auto px-4 flex items-center">
             {!isAdminOrClientPage && (
               <SidebarTrigger>
-                 <Menu className="text-[#d0c11d] !important hover:text-[#d0c11d]/90 h-6 w-6 cursor-pointer" />
+                <Menu color="#d0c11d" className="h-6 w-6 cursor-pointer" />
               </SidebarTrigger>
             )}
             {!isAdminOrClientPage && showNavigation && (
