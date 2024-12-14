@@ -102,11 +102,11 @@ export function Layout() {
       )}
 
       <div className={`flex-1 flex flex-col ${state === "expanded" ? "relative after:absolute after:inset-0 after:bg-black/20 after:backdrop-blur-sm" : ""}`}>
-        <header className="bg-[#420030] h-16">
+        <header className="bg-[#d0c11d] h-16">
           <div className="h-full max-w-7xl mx-auto px-4 flex items-center">
             {!isAdminOrClientPage && (
               <SidebarTrigger>
-                <Menu className="text-[#f9e616] hover:text-[#f9e616]/90 h-6 w-6 cursor-pointer" />
+                <Menu className="text-[#d0c11d] hover:text-[#d0c11d]/90 h-6 w-6 cursor-pointer" />
               </SidebarTrigger>
             )}
             {!isAdminOrClientPage && showNavigation && (
