@@ -71,7 +71,7 @@ export function LoginModal() {
     return (
       <Button 
         variant="ghost"
-        className="bg-[#f9e616] text-white hover:bg-[#f9e616]/90 flex items-center gap-2"
+        className="bg-[#d0c11d] text-white hover:bg-[#d0c11d]/90 flex items-center gap-2"
         onClick={handleLogout}
       >
         <LogOut className="h-4 w-4" />
@@ -85,7 +85,7 @@ export function LoginModal() {
       <DialogTrigger asChild>
         <Button 
           variant="ghost"
-          className="bg-[#f9e616] text-white hover:bg-[#f9e616]/90 flex items-center gap-2"
+          className="bg-[#d0c11d] text-white hover:bg-[#d0c11d]/90 flex items-center gap-2"
         >
           <LogIn className="h-4 w-4" />
           Login
