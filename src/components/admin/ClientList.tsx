@@ -96,7 +96,7 @@ export function ClientList({ clients, projects }: ClientListProps) {
       <CreateProjectModal
         open={createModalOpen}
         onOpenChange={setCreateModalOpen}
-        onProjectCreated={() => window.location.reload()}
+        //onProjectCreated={() => window.location.reload()}
       />
 
       {editModalOpen && selectedProject && (
