@@ -44,6 +44,7 @@ export function ClientList({ clients, projects }: ClientListProps) {
       if (error) throw error;
 
       toast.success('Projeto removido com sucesso');
+      refetch();
       //window.location.reload();
     } catch (error) {
       console.error('Erro ao deletar projeto:', error);
