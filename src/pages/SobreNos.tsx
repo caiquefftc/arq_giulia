@@ -12,7 +12,7 @@ export default function SobreNos() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+                    src="imgs/IMG_20241211_120648_317.webp"
                     alt="Arquiteto"
                     className="w-full h-[400px] object-cover rounded-lg"
                   />
@@ -20,7 +20,7 @@ export default function SobreNos() {
                 <div className="space-y-6">
                   <h2 className="text-2xl font-semibold">Giulia Cardozo</h2>
                   <p className="text-gray-600 leading-relaxed">
-                    Com mais de 5 anos de experiência em arquitetura e design de interiores, 
+                    Com mais de 2 anos de experiência em arquitetura e design de interiores, 
                     nossa missão é transformar espaços em ambientes únicos que reflitam a 
                     personalidade e necessidades de cada cliente.
                   </p>
