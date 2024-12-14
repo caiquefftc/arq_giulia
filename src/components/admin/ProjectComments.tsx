@@ -69,6 +69,7 @@ export function ProjectComments({ projectId, onCommentDeleted }: ProjectComments
       if (error) throw error;
 
       toast.success('Comentário deletado com sucesso!');
+      refetch();
       onCommentDeleted();
       fetchComments();
     } catch (error) {
