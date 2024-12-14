@@ -50,6 +50,7 @@ export function ClientList({ clients, projects }: ClientListProps) {
     } catch (error) {
       console.error('Erro ao deletar projeto:', error);
       toast.error('Erro ao remover projeto');
+      refetch();
     }
   };
 
