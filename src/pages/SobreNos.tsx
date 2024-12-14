@@ -26,7 +26,7 @@ export default function SobreNos() {
                   </p>
                   <p className="text-gray-600 leading-relaxed">
                     Especializada em projetos residenciais e comerciais, nossa abordagem 
-                    combina criatividade, funcionalidade e sustentabilidade para criar 
+                    combina criatividade e funcionalidade para criar 
                     ambientes harmoniosos e acolhedores.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
