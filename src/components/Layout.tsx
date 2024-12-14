@@ -10,7 +10,6 @@ import {
   SidebarTrigger,
   SidebarMenu,
   SidebarMenuItem,
-  SidebarMenuButton,
   useSidebar
 } from "@/components/ui/sidebar";
 
@@ -81,8 +80,21 @@ export function Layout() {
               </SidebarTrigger>
             </div>
             <SidebarMenu>
- 
-              
+              {menuItems.map((item) => (
+                <SidebarMenuItem key={item.label}>
+                  <SidebarMenuButton asChild>
+                    <Link 
+                      to={item.href}
+                      className={`flex items-center gap-2 ${
+                        location.pathname === item.href ? 'font-bold' : ''
+                      }`}
+                    >
+                      {item.icon && <item.icon className="h-4 w-4" />}
+                      {item.label}
+                    </Link>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              ))}
             </SidebarMenu>
           </SidebarContent>
         </Sidebar>
@@ -129,7 +141,7 @@ export function Layout() {
         <footer className="bg-[#420030] text-white py-6 text-center">
           <p className="mb-2 px-4 text-sm md:text-base">Giulia Cardozo | Arquitetura & Interiores</p>
           <p className="mb-2 px-4 text-sm md:text-base">Transformando sonhos em realidade!</p>
-          <p className="text-sm md:text-base">&copy; 2025 Todos os direitos reservadosa</p>
+          <p className="text-sm md:text-base">&copy; 2025 Todos os direitos reservados</p>
         </footer>
       </div>
     </div>
