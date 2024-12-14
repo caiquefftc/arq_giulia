@@ -140,7 +140,8 @@ export function Layout() {
         </main>
 
         <footer className="bg-[#420030] text-white py-6 text-center">
-          <p className="mb-2 px-4 text-sm md:text-base">Giulia Cardozo Arquitetura - Transformando sonhos em realidade</p>
+          <p className="mb-2 px-4 text-sm md:text-base">Giulia Cardozo | Arquitetura e Interiores</p>
+          <p className="mb-2 px-4 text-sm md:text-base">Transformando sonhos em realidade</p>
           <p className="text-sm md:text-base">&copy; 2025 Todos os direitos reservados</p>
         </footer>
       </div>
